@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banker - Financial Services</title>
+    <title>Banker - Banking HTML5 Template</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -14,15 +14,21 @@
         <div class="container">
             <nav class="navbar">
                 <div class="logo">
-                    <h2>Banker</h2>
+                    <a href="index.html">
+                        <img src="https://preview.colorlib.com/theme/banker/images/logo.png" alt="Banker">
+                    </a>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="#home" class="nav-link active">Home</a></li>
                     <li><a href="#about" class="nav-link">About</a></li>
                     <li><a href="#services" class="nav-link">Services</a></li>
-                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
+                <div class="nav-buttons">
+                    <a href="#" class="btn btn-outline">Sign In</a>
+                    <a href="#" class="btn btn-primary">Sign Up</a>
+                </div>
                 <div class="hamburger">
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -37,69 +43,47 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Smart Banking for Smart People</h1>
-                    <p>Experience the future of banking with our innovative digital solutions. Secure, fast, and convenient banking services tailored for modern life.</p>
+                    <h1>Banking Solutions That Work For You</h1>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <div class="hero-buttons">
-                        <button class="btn btn-primary">Get Started</button>
-                        <button class="btn btn-secondary">Learn More</button>
+                        <a href="#" class="btn btn-primary">Get Started</a>
+                        <a href="#" class="btn btn-play">
+                            <i class="fas fa-play"></i>
+                            <span>Watch Video</span>
+                        </a>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2126&q=80" alt="Banking">
+                    <img src="https://preview.colorlib.com/theme/banker/images/hero-bg.jpg" alt="Banking">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
+    <!-- Features Section -->
+    <section class="features">
         <div class="container">
-            <div class="section-header">
-                <h2>Our Services</h2>
-                <p>Comprehensive financial solutions designed to meet your needs</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-credit-card"></i>
-                    </div>
-                    <h3>Credit Cards</h3>
-                    <p>Get the best credit cards with competitive rates and exclusive rewards programs.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-home"></i>
-                    </div>
-                    <h3>Home Loans</h3>
-                    <p>Make your dream home a reality with our flexible home loan options.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Investment</h3>
-                    <p>Grow your wealth with our expert investment advisory and portfolio management.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
                         <i class="fas fa-shield-alt"></i>
                     </div>
-                    <h3>Insurance</h3>
-                    <p>Protect what matters most with comprehensive insurance coverage.</p>
+                    <h3>Secure Banking</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">
+                <div class="feature-card">
+                    <div class="feature-icon">
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <h3>Mobile Banking</h3>
-                    <p>Bank anywhere, anytime with our secure and user-friendly mobile app.</p>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-university"></i>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
                     </div>
-                    <h3>Business Banking</h3>
-                    <p>Comprehensive banking solutions to help your business grow and succeed.</p>
+                    <h3>Investment</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                 </div>
             </div>
         </div>
@@ -110,24 +94,25 @@
         <div class="container">
             <div class="about-content">
                 <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2111&q=80" alt="About Us">
+                    <img src="https://preview.colorlib.com/theme/banker/images/about.jpg" alt="About Us">
                 </div>
                 <div class="about-text">
-                    <h2>About Banker</h2>
-                    <p>We are a leading financial institution committed to providing innovative banking solutions that empower individuals and businesses to achieve their financial goals.</p>
-                    <p>With decades of experience and a customer-first approach, we've built a reputation for trust, reliability, and excellence in the financial services industry.</p>
-                    <div class="stats">
+                    <span class="section-subtitle">About Us</span>
+                    <h2>We Are The Best Bank For International Trade</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <div class="about-stats">
                         <div class="stat">
                             <h3>50K+</h3>
                             <p>Happy Customers</p>
                         </div>
                         <div class="stat">
-                            <h3>$2B+</h3>
-                            <p>Assets Managed</p>
-                        </div>
-                        <div class="stat">
                             <h3>25+</h3>
                             <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Secure Banking</p>
                         </div>
                     </div>
                 </div>
@@ -135,55 +120,63 @@
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
+    <!-- Services Section -->
+    <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <h2>What Our Customers Say</h2>
-                <p>Don't just take our word for it - hear from our satisfied customers</p>
+                <span class="section-subtitle">Our Services</span>
+                <h2>We Provide Best Banking Services</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             </div>
-            <div class="testimonials-slider">
-                <div class="testimonial-card active">
-                    <div class="testimonial-content">
-                        <p>"Banker has transformed my banking experience. The mobile app is incredibly user-friendly and their customer service is outstanding."</p>
-                        <div class="testimonial-author">
-                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Sarah Johnson">
-                            <div>
-                                <h4>Sarah Johnson</h4>
-                                <span>Business Owner</span>
-                            </div>
-                        </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-credit-card"></i>
                     </div>
+                    <h3>Credit Cards</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"The investment advisory services at Banker helped me build a solid financial foundation for my future. Highly recommended!"</p>
-                        <div class="testimonial-author">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Michael Chen">
-                            <div>
-                                <h4>Michael Chen</h4>
-                                <span>Software Engineer</span>
-                            </div>
-                        </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
                     </div>
+                    <h3>Home Loans</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"Getting a home loan with Banker was the smoothest process I've ever experienced. Their team was professional and supportive throughout."</p>
-                        <div class="testimonial-author">
-                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Emily Rodriguez">
-                            <div>
-                                <h4>Emily Rodriguez</h4>
-                                <span>Marketing Manager</span>
-                            </div>
-                        </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
                     </div>
+                    <h3>Investment</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-            </div>
-            <div class="testimonial-dots">
-                <span class="dot active" data-slide="0"></span>
-                <span class="dot" data-slide="1"></span>
-                <span class="dot" data-slide="2"></span>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Insurance</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Banking</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>Business Banking</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
         </div>
     </section>
@@ -193,8 +186,63 @@
         <div class="container">
             <div class="cta-content">
                 <h2>Ready to Get Started?</h2>
-                <p>Join thousands of satisfied customers who trust Banker with their financial future.</p>
-                <button class="btn btn-primary">Open Account Today</button>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Blog</span>
+                <h2>Recent Blog Posts</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://preview.colorlib.com/theme/banker/images/blog-1.jpg" alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> March 15, 2024</span>
+                            <span><i class="fas fa-user"></i> Admin</span>
+                        </div>
+                        <h3>How to Choose the Right Bank for Your Business</h3>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://preview.colorlib.com/theme/banker/images/blog-2.jpg" alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> March 10, 2024</span>
+                            <span><i class="fas fa-user"></i> Admin</span>
+                        </div>
+                        <h3>Top 10 Investment Tips for Beginners</h3>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://preview.colorlib.com/theme/banker/images/blog-3.jpg" alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> March 5, 2024</span>
+                            <span><i class="fas fa-user"></i> Admin</span>
+                        </div>
+                        <h3>Understanding Digital Banking Security</h3>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -204,45 +252,46 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Banker</h3>
-                    <p>Your trusted partner in financial success. We're committed to providing innovative banking solutions that help you achieve your goals.</p>
+                    <div class="footer-logo">
+                        <img src="https://preview.colorlib.com/theme/banker/images/logo.png" alt="Banker">
+                    </div>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="#">Personal Banking</a></li>
-                        <li><a href="#">Business Banking</a></li>
-                        <li><a href="#">Investment Services</a></li>
-                        <li><a href="#">Insurance</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Company</h4>
+                    <h4>Quick Links</h4>
                     <ul>
                         <li><a href="#">About Us</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">News</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Blog</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Support</h4>
+                    <h4>Services</h4>
                     <ul>
-                        <li><a href="#">Help Center</a></li>
-                        <li><a href="#">Security</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Credit Cards</a></li>
+                        <li><a href="#">Home Loans</a></li>
+                        <li><a href="#">Investment</a></li>
+                        <li><a href="#">Insurance</a></li>
                     </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 203 Fake St. Mountain View, San Francisco, California, USA</p>
+                        <p><i class="fas fa-phone"></i> +2 392 3929 210</p>
+                        <p><i class="fas fa-envelope"></i> info@yourdomain.com</p>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Banker. All rights reserved.</p>
+                <p>&copy; 2024 Banker. All rights reserved. | This template is made with <i class="fas fa-heart"></i> by <a href="#">Colorlib</a></p>
             </div>
         </div>
     </footer>

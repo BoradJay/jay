@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize all functionality
     initMobileNav();
     initSmoothScrolling();
-    initTestimonialsSlider();
     initScrollAnimations();
     initHeaderScroll();
     initButtonAnimations();
+    initCounterAnimations();
 });
 
 // Mobile Navigation
@@ -61,43 +61,6 @@ function initSmoothScrolling() {
     });
 }
 
-// Testimonials Slider
-function initTestimonialsSlider() {
-    const testimonialCards = document.querySelectorAll('.testimonial-card');
-    const dots = document.querySelectorAll('.dot');
-    let currentSlide = 0;
-
-    function showSlide(index) {
-        // Hide all slides
-        testimonialCards.forEach(card => {
-            card.classList.remove('active');
-        });
-        
-        // Remove active class from all dots
-        dots.forEach(dot => {
-            dot.classList.remove('active');
-        });
-        
-        // Show current slide
-        testimonialCards[index].classList.add('active');
-        dots[index].classList.add('active');
-    }
-
-    // Add click event to dots
-    dots.forEach((dot, index) => {
-        dot.addEventListener('click', function() {
-            currentSlide = index;
-            showSlide(currentSlide);
-        });
-    });
-
-    // Auto slide every 5 seconds
-    setInterval(() => {
-        currentSlide = (currentSlide + 1) % testimonialCards.length;
-        showSlide(currentSlide);
-    }, 5000);
-}
-
 // Scroll Animations
 function initScrollAnimations() {
     const observerOptions = {
@@ -114,7 +77,7 @@ function initScrollAnimations() {
     }, observerOptions);
 
     // Observe elements for animation
-    const animateElements = document.querySelectorAll('.service-card, .about-content, .testimonial-card, .stats');
+    const animateElements = document.querySelectorAll('.feature-card, .service-card, .blog-card, .about-content');
     animateElements.forEach(el => {
         el.classList.add('loading');
         observer.observe(el);
@@ -213,7 +176,7 @@ function updateActiveNavLink() {
 updateActiveNavLink();
 
 // Counter Animation for Stats
-function animateCounters() {
+function initCounterAnimations() {
     const counters = document.querySelectorAll('.stat h3');
     const speed = 200;
 
@@ -225,12 +188,12 @@ function animateCounters() {
         if (count < target) {
             counter.innerText = Math.ceil(count + increment).toLocaleString() + 
                               (counter.innerText.includes('K') ? 'K+' : 
-                               counter.innerText.includes('B') ? 'B+' : '+');
+                               counter.innerText.includes('%') ? '%' : '+');
             setTimeout(() => animateCounter(counter), 1);
         } else {
             counter.innerText = target.toLocaleString() + 
                               (counter.innerText.includes('K') ? 'K+' : 
-                               counter.innerText.includes('B') ? 'B+' : '+');
+                               counter.innerText.includes('%') ? '%' : '+');
         }
     };
 
@@ -247,9 +210,6 @@ function animateCounters() {
         observer.observe(counter);
     });
 }
-
-// Initialize counter animations
-animateCounters();
 
 // Form Validation (if forms are added later)
 function initFormValidation() {
@@ -302,7 +262,7 @@ function showNotification(message, type = 'info') {
         transition: transform 0.3s ease;
         ${type === 'success' ? 'background: #10b981;' : 
           type === 'error' ? 'background: #ef4444;' : 
-          'background: #3b82f6;'}
+          'background: #1089ff;'}
     `;
     
     document.body.appendChild(notification);
@@ -383,8 +343,11 @@ window.addEventListener('scroll', debouncedScrollHandler);
 // Preload critical images
 function preloadImages() {
     const imageUrls = [
-        'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2126&q=80',
-        'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2111&q=80'
+        'https://preview.colorlib.com/theme/banker/images/hero-bg.jpg',
+        'https://preview.colorlib.com/theme/banker/images/about.jpg',
+        'https://preview.colorlib.com/theme/banker/images/blog-1.jpg',
+        'https://preview.colorlib.com/theme/banker/images/blog-2.jpg',
+        'https://preview.colorlib.com/theme/banker/images/blog-3.jpg'
     ];
     
     imageUrls.forEach(url => {
@@ -408,6 +371,14 @@ document.addEventListener('click', function(e) {
             e.target.textContent = originalText;
             e.target.disabled = false;
         }, 2000);
+    }
+});
+
+// Video play button functionality
+document.addEventListener('click', function(e) {
+    if (e.target.closest('.btn-play')) {
+        e.preventDefault();
+        showNotification('Video player would open here!', 'info');
     }
 });
 
