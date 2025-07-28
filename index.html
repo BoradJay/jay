@@ -3,59 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banker - Banking Solutions</title>
+    <title>Banker - Free Bootstrap 4 Template by Colorlib</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-            <div class="nav-brand">
-                <h2>Banker.</h2>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li class="dropdown">
-                    <a href="#about">About Us <i class="fas fa-chevron-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#team">Team</a></li>
-                        <li><a href="#pricing">Pricing</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                        <li><a href="#gallery">Gallery</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
-                    </ul>
-                </li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+            <a class="navbar-brand" href="index.html">Banker.</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+            
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown04" role="button" data-toggle="dropdown">About Us</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="team.html">Team</a>
+                            <a class="dropdown-item" href="pricing.html">Pricing</a>
+                            <a class="dropdown-item" href="faq.html">FAQ</a>
+                            <a class="dropdown-item" href="gallery.html">Gallery</a>
+                            <a class="dropdown-item" href="services.html">Services</a>
+                            <a class="dropdown-item" href="testimonials.html">Testimonials</a>
+                            <li class="nav-item dropdown dropdown-hover">
+                                <a class="dropdown-item dropdown-toggle" href="#" id="dropdown04-1">More Links</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Menu One</a></li>
+                                    <li><a class="dropdown-item" href="#">Menu Two</a></li>
+                                    <li><a class="dropdown-item" href="#">Menu Three</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section class="hero-wrap">
         <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <div class="hero-card">
-                        <i class="fas fa-university"></i>
+            <div class="row">
+                <div class="col-md-4 d-flex align-items-center">
+                    <div class="intro ftco-animate">
+                        <div class="icon">
+                            <span class="flaticon-money"></span>
+                        </div>
                         <h3>Banking Solutions</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident cupiditate suscipit, magnam libero velit esse sapiente officia inventore!</p>
                     </div>
-                    <div class="hero-card">
-                        <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="col-md-4 d-flex align-items-center">
+                    <div class="intro ftco-animate">
+                        <div class="icon">
+                            <span class="flaticon-analytics"></span>
+                        </div>
                         <h3>Financing Solutions</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident cupiditate suscipit, magnam libero velit esse sapiente officia inventore!</p>
                     </div>
-                    <div class="hero-card">
-                        <i class="fas fa-piggy-bank"></i>
+                </div>
+                <div class="col-md-4 d-flex align-items-center">
+                    <div class="intro ftco-animate">
+                        <div class="icon">
+                            <span class="flaticon-coins"></span>
+                        </div>
                         <h3>Savings Accounts</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident cupiditate suscipit, magnam libero velit esse sapiente officia inventore!</p>
                     </div>
@@ -65,264 +82,438 @@
     </section>
 
     <!-- Features Section -->
-    <section class="features">
+    <section class="ftco-section">
         <div class="container">
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-coins"></i>
-                    </div>
-                    <h3>Money Savings</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="icon justify-content-center align-items-center d-flex">
+                            <span class="flaticon-money"></span>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading mb-3">Money Savings</h3>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                        </div>
+                    </div>      
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                    <h3>Online Shopping</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="icon justify-content-center align-items-center d-flex">
+                            <span class="flaticon-shopping-cart"></span>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading mb-3">Online Shoppings</h3>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                        </div>
+                    </div>      
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-credit-card"></i>
-                    </div>
-                    <h3>Credit / Debit Cards</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="icon justify-content-center align-items-center d-flex">
+                            <span class="flaticon-credit-card"></span>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading mb-3">Credit / Debit Cards</h3>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                        </div>
+                    </div>      
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-calculator"></i>
-                    </div>
-                    <h3>Amortization Computation</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="icon justify-content-center align-items-center d-flex">
+                            <span class="flaticon-calculator"></span>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading mb-3">Amortization Computation</h3>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                        </div>
+                    </div>      
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about">
+    <section class="ftco-section ftco-no-pt ftco-no-pb">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>About Us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
-                    <div class="about-features">
-                        <ul>
-                            <li><i class="fas fa-check"></i> Officia quaerat eaque neque</li>
-                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet</li>
-                            <li><i class="fas fa-check"></i> Consectetur adipisicing elit</li>
-                        </ul>
+            <div class="row d-flex">
+                <div class="col-md-6 d-flex">
+                    <div class="img img-2 w-100 mr-md-2" style="background-image: url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="img img-2 w-100 ml-md-2" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                </div>
+                <div class="col-md-6 pl-md-5">
+                    <div class="row justify-content-start pb-3">
+                        <div class="col-md-12 heading-section ftco-animate">
+                            <span class="subheading">Welcome to Banker</span>
+                            <h2 class="mb-4">About Us</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
+                            <div class="d-flex align-items-center">
+                                <ul class="about-info mt-4 px-md-0 px-2">
+                                    <li class="d-flex"><span>Officia quaerat eaque neque</span></li>
+                                    <li class="d-flex"><span>Lorem ipsum dolor sit amet</span></li>
+                                    <li class="d-flex"><span>Consectetur adipisicing elit</span></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="About Us">
-                </div>
             </div>
-            <div class="about-details">
-                <h3>We Solve Your Financial Problem</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+        </div>
+    </section>
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <span class="subheading">We Solve Your Financial Problem</span>
+                    <h2>We Solve Your Financial Problem</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="team">
+    <section class="ftco-section bg-light">
         <div class="container">
-            <div class="section-header">
-                <h2>Meet Team</h2>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-8 heading-section text-center ftco-animate">
+                    <span class="subheading">Our Team</span>
+                    <h2 class="mb-4">Meet Team</h2>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                </div>
             </div>
-            <div class="team-grid">
-                <div class="team-card">
-                    <div class="team-image">
-                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b977?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Kaiara Spencer">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="staff">
+                        <div class="img-wrap d-flex align-items-stretch">
+                            <div class="img align-self-stretch" style="background-image: url('https://images.unsplash.com/photo-1494790108755-2616b612b977?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80');"></div>
+                        </div>
+                        <div class="text pt-3 text-center">
+                            <h3>Kaiara Spencer</h3>
+                            <span class="position mb-2">Finance Manager</span>
+                        </div>
                     </div>
-                    <h3>Kaiara Spencer</h3>
-                    <p>Finance Manager</p>
                 </div>
-                <div class="team-card">
-                    <div class="team-image">
-                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Dave Simpson">
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="staff">
+                        <div class="img-wrap d-flex align-items-stretch">
+                            <div class="img align-self-stretch" style="background-image: url('https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80');"></div>
+                        </div>
+                        <div class="text pt-3 text-center">
+                            <h3>Dave Simpson</h3>
+                            <span class="position mb-2">Marketing Manager</span>
+                        </div>
                     </div>
-                    <h3>Dave Simpson</h3>
-                    <p>Marketing Manager</p>
                 </div>
-                <div class="team-card">
-                    <div class="team-image">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Ben Thompson">
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="staff">
+                        <div class="img-wrap d-flex align-items-stretch">
+                            <div class="img align-self-stretch" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80');"></div>
+                        </div>
+                        <div class="text pt-3 text-center">
+                            <h3>Ben Thompson</h3>
+                            <span class="position mb-2">Accountant</span>
+                        </div>
                     </div>
-                    <h3>Ben Thompson</h3>
-                    <p>Accountant</p>
                 </div>
-                <div class="team-card">
-                    <div class="team-image">
-                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Kyla Stewart">
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="staff">
+                        <div class="img-wrap d-flex align-items-stretch">
+                            <div class="img align-self-stretch" style="background-image: url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80');"></div>
+                        </div>
+                        <div class="text pt-3 text-center">
+                            <h3>Kyla Stewart</h3>
+                            <span class="position mb-2">Accountant</span>
+                        </div>
                     </div>
-                    <h3>Kyla Stewart</h3>
-                    <p>Accountant</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="staff">
+                        <div class="img-wrap d-flex align-items-stretch">
+                            <div class="img align-self-stretch" style="background-image: url('https://images.unsplash.com/photo-1494790108755-2616b612b977?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80');"></div>
+                        </div>
+                        <div class="text pt-3 text-center">
+                            <h3>Kaiara Spencer</h3>
+                            <span class="position mb-2">Accountant</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="staff">
+                        <div class="img-wrap d-flex align-items-stretch">
+                            <div class="img align-self-stretch" style="background-image: url('https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80');"></div>
+                        </div>
+                        <div class="text pt-3 text-center">
+                            <h3>Dave Simpson</h3>
+                            <span class="position mb-2">Bank Teller</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="staff">
+                        <div class="img-wrap d-flex align-items-stretch">
+                            <div class="img align-self-stretch" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80');"></div>
+                        </div>
+                        <div class="text pt-3 text-center">
+                            <h3>Ben Thompson</h3>
+                            <span class="position mb-2">Bank Teller</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="staff">
+                        <div class="img-wrap d-flex align-items-stretch">
+                            <div class="img align-self-stretch" style="background-image: url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80');"></div>
+                        </div>
+                        <div class="text pt-3 text-center">
+                            <h3>Chris Stewart</h3>
+                            <span class="position mb-2">Bank Teller</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Gallery Section -->
-    <section id="gallery" class="gallery">
+    <section class="ftco-section">
         <div class="container">
-            <div class="section-header">
-                <h2>Gallery</h2>
-                <div class="gallery-filters">
-                    <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="events">Events</button>
-                    <button class="filter-btn" data-filter="party">Party</button>
-                    <button class="filter-btn" data-filter="holidays">Holidays</button>
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-8 heading-section text-center ftco-animate">
+                    <span class="subheading">Gallery</span>
+                    <h2 class="mb-4">Gallery</h2>
                 </div>
             </div>
-            <div class="gallery-grid">
-                <div class="gallery-item" data-category="events">
-                    <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Gallery Image">
-                </div>
-                <div class="gallery-item" data-category="party">
-                    <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Gallery Image">
-                </div>
-                <div class="gallery-item" data-category="holidays">
-                    <img src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Gallery Image">
-                </div>
-                <div class="gallery-item" data-category="events">
-                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Gallery Image">
-                </div>
-                <div class="gallery-item" data-category="party">
-                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Gallery Image">
-                </div>
-                <div class="gallery-item" data-category="holidays">
-                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Gallery Image">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="carousel-testimony owl-carousel ftco-owl">
+                        <div class="item">
+                            <div class="gallery-img" style="background-image: url('https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');"></div>
+                        </div>
+                        <div class="item">
+                            <div class="gallery-img" style="background-image: url('https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');"></div>
+                        </div>
+                        <div class="item">
+                            <div class="gallery-img" style="background-image: url('https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- How It Works Section -->
-    <section class="how-it-works">
+    <section class="ftco-section bg-light">
         <div class="container">
-            <div class="section-header">
-                <h2>How It Works</h2>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-8 heading-section text-center ftco-animate">
+                    <span class="subheading">How it works</span>
+                    <h2 class="mb-4">How It Works</h2>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                </div>
             </div>
-            <div class="steps-grid">
-                <div class="step-card">
-                    <div class="step-number">01</div>
-                    <div class="step-icon">
-                        <i class="fas fa-file-alt"></i>
+            <div class="row tabulation mt-4 ftco-animate">
+                <div class="col-md-4">
+                    <div class="nav nav-pills nav-fill d-md-flex d-block flex-column">
+                        <a class="nav-link active py-2" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1">
+                            <span class="ion-ios-arrow-forward mr-2"></span>
+                            <span class="media-body">
+                                <h3 class="mt-0 h5">01. Online Applications</h3>
+                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                <a href="#" class="btn btn-primary">Learn More</a>
+                            </span>
+                        </a>
+
+                        <a class="nav-link py-2" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2">
+                            <span class="ion-ios-arrow-forward mr-2"></span>
+                            <span class="media-body">
+                                <h3 class="mt-0 h5">02. Get an approval</h3>
+                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                <a href="#" class="btn btn-primary">Learn More</a>
+                            </span>
+                        </a>
+
+                        <a class="nav-link py-2" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3">
+                            <span class="ion-ios-arrow-forward mr-2"></span>
+                            <span class="media-body">
+                                <h3 class="mt-0 h5">03. Card delivery</h3>
+                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                <a href="#" class="btn btn-primary">Learn More</a>
+                            </span>
+                        </a>
                     </div>
-                    <h3>Online Applications</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <a href="#" class="learn-more">Learn More</a>
                 </div>
-                <div class="step-card">
-                    <div class="step-number">02</div>
-                    <div class="step-icon">
-                        <i class="fas fa-check-circle"></i>
+                <div class="col-md-8">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="v-pills-1">
+                            <div class="img" style="background-image: url('https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-2">
+                            <div class="img" style="background-image: url('https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-3">
+                            <div class="img" style="background-image: url('https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                        </div>
                     </div>
-                    <h3>Get an approval</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <a href="#" class="learn-more">Learn More</a>
-                </div>
-                <div class="step-card">
-                    <div class="step-number">03</div>
-                    <div class="step-icon">
-                        <i class="fas fa-shipping-fast"></i>
-                    </div>
-                    <h3>Card delivery</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <a href="#" class="learn-more">Learn More</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services">
+    <section class="ftco-section">
         <div class="container">
-            <div class="section-header">
-                <h2>Our Services</h2>
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-8 heading-section text-center ftco-animate">
+                    <span class="subheading">Services</span>
+                    <h2 class="mb-4">Our Services</h2>
+                </div>
             </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-handshake"></i>
-                    </div>
-                    <h3>Business Consulting</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    <a href="#" class="learn-more">Learn More</a>
+            <div class="row d-flex">
+                <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="icon justify-content-center align-items-center d-flex">
+                            <span class="flaticon-loan"></span>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading mb-3">Business Consulting</h3>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>      
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-credit-card"></i>
-                    </div>
-                    <h3>Credit Card</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    <a href="#" class="learn-more">Learn More</a>
+                <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="icon justify-content-center align-items-center d-flex">
+                            <span class="flaticon-credit-card"></span>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading mb-3">Credit Card</h3>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>      
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-chart-bar"></i>
-                    </div>
-                    <h3>Income Monitoring</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    <a href="#" class="learn-more">Learn More</a>
+                <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="icon justify-content-center align-items-center d-flex">
+                            <span class="flaticon-monitoring"></span>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading mb-3">Income Monitoring</h3>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>      
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Insurance Consulting</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    <a href="#" class="learn-more">Learn More</a>
+                <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="icon justify-content-center align-items-center d-flex">
+                            <span class="flaticon-insurance"></span>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading mb-3">Insurance Consulting</h3>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>      
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-coins"></i>
-                    </div>
-                    <h3>Financial Investment</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    <a href="#" class="learn-more">Learn More</a>
+                <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="icon justify-content-center align-items-center d-flex">
+                            <span class="flaticon-investment"></span>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading mb-3">Financial Investment</h3>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>      
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-chart-pie"></i>
-                    </div>
-                    <h3>Financial Management</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    <a href="#" class="learn-more">Learn More</a>
+                <div class="col-md-6 col-lg-4 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="icon justify-content-center align-items-center d-flex">
+                            <span class="flaticon-consultant"></span>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading mb-3">Financial Management</h3>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>      
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
+    <section class="ftco-section testimony-section bg-primary">
         <div class="container">
-            <div class="section-header">
-                <h2>Happy Customers</h2>
-            </div>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="John Smith">
-                        <h4>John Smith</h4>
-                    </div>
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-8 heading-section heading-section-white text-center ftco-animate">
+                    <span class="subheading">Testimonial</span>
+                    <h2 class="mb-4">Happy Customers</h2>
                 </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b977?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Christine Aguilar">
-                        <h4>Christine Aguilar</h4>
+            </div>
+            <div class="row ftco-animate">
+                <div class="col-md-12">
+                    <div class="carousel-testimony owl-carousel">
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="text">
+                                    <p class="mb-4">"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80')"></div>
+                                        <div class="ml-3">
+                                            <p class="name">John Smith</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="text">
+                                    <p class="mb-4">"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url('https://images.unsplash.com/photo-1494790108755-2616b612b977?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80')"></div>
+                                        <div class="ml-3">
+                                            <p class="name">Christine Aguilar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="text">
+                                    <p class="mb-4">"Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar."</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url('https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80')"></div>
+                                        <div class="ml-3">
+                                            <p class="name">Robert Spears</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="text">
+                                    <p class="mb-4">"The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way."</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80')"></div>
+                                        <div class="ml-3">
+                                            <p class="name">Bruce Rogers</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -330,93 +521,163 @@
     </section>
 
     <!-- Pricing Section -->
-    <section id="pricing" class="pricing">
+    <section class="ftco-section bg-light">
         <div class="container">
-            <div class="section-header">
-                <h2>Pricing</h2>
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-8 heading-section text-center ftco-animate">
+                    <span class="subheading">Pricing</span>
+                    <h2 class="mb-4">Pricing</h2>
+                </div>
             </div>
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <h3>Basic</h3>
-                    <div class="price">$47 <span>/ year</span></div>
-                    <ul>
-                        <li><i class="fas fa-check"></i> Officia quaerat eaque neque</li>
-                        <li><i class="fas fa-check"></i> Possimus aut consequuntur incidunt</li>
-                        <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet</li>
-                        <li><i class="fas fa-check"></i> Consectetur adipisicing elit</li>
-                        <li><i class="fas fa-check"></i> Dolorum esse odio quas architecto sint</li>
-                    </ul>
-                    <button class="btn-primary">Buy Now</button>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 ftco-animate">
+                    <div class="pricing-entry pb-5 text-center">
+                        <div>
+                            <h3 class="mb-4">Basic</h3>
+                            <p><span class="price">$47</span> <span class="per">/ year</span></p>
+                        </div>
+                        <ul>
+                            <li>Officia quaerat eaque neque</li>
+                            <li>Possimus aut consequuntur incidunt</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Consectetur adipisicing elit</li>
+                            <li>Dolorum esse odio quas architecto sint</li>
+                        </ul>
+                        <p class="button text-center"><a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">Buy Now</a></p>
+                    </div>
                 </div>
-                <div class="pricing-card featured">
-                    <h3>Premium</h3>
-                    <div class="price">$200 <span>/ year</span></div>
-                    <ul>
-                        <li><i class="fas fa-check"></i> Officia quaerat eaque neque</li>
-                        <li><i class="fas fa-check"></i> Possimus aut consequuntur incidunt</li>
-                        <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet</li>
-                        <li><i class="fas fa-check"></i> Consectetur adipisicing elit</li>
-                        <li><i class="fas fa-check"></i> Dolorum esse odio quas architecto sint</li>
-                    </ul>
-                    <button class="btn-primary">Buy Now</button>
+                <div class="col-md-6 col-lg-4 ftco-animate">
+                    <div class="pricing-entry active pb-5 text-center">
+                        <div>
+                            <h3 class="mb-4">Premium</h3>
+                            <p><span class="price">$200</span> <span class="per">/ year</span></p>
+                        </div>
+                        <ul>
+                            <li>Officia quaerat eaque neque</li>
+                            <li>Possimus aut consequuntur incidunt</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Consectetur adipisicing elit</li>
+                            <li>Dolorum esse odio quas architecto sint</li>
+                        </ul>
+                        <p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Buy Now</a></p>
+                    </div>
                 </div>
-                <div class="pricing-card">
-                    <h3>Professional</h3>
-                    <div class="price">$750 <span>/ year</span></div>
-                    <ul>
-                        <li><i class="fas fa-check"></i> Officia quaerat eaque neque</li>
-                        <li><i class="fas fa-check"></i> Possimus aut consequuntur incidunt</li>
-                        <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet</li>
-                        <li><i class="fas fa-check"></i> Consectetur adipisicing elit</li>
-                        <li><i class="fas fa-check"></i> Dolorum esse odio quas architecto sint</li>
-                    </ul>
-                    <button class="btn-primary">Buy Now</button>
+                <div class="col-md-6 col-lg-4 ftco-animate">
+                    <div class="pricing-entry pb-5 text-center">
+                        <div>
+                            <h3 class="mb-4">Professional</h3>
+                            <p><span class="price">$750</span> <span class="per">/ year</span></p>
+                        </div>
+                        <ul>
+                            <li>Officia quaerat eaque neque</li>
+                            <li>Possimus aut consequuntur incidunt</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Consectetur adipisicing elit</li>
+                            <li>Dolorum esse odio quas architecto sint</li>
+                        </ul>
+                        <p class="button text-center"><a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">Buy Now</a></p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- FAQ Section -->
-    <section id="faq" class="faq">
+    <section class="ftco-section">
         <div class="container">
-            <div class="section-header">
-                <h2>Frequently Asked Questions</h2>
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-8 heading-section text-center ftco-animate">
+                    <span class="subheading">FAQ</span>
+                    <h2 class="mb-4">Frequently Ask Questions</h2>
+                </div>
             </div>
-            <div class="faq-grid">
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h3>Can I accept both Paypal and Stripe?</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <div class="row">
+                <div class="col-md-6 ftco-animate">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne">
+                                        Can I accept both Paypal and Stripe?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo">
+                                        What available is refund period?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree">
+                                        Where are you from?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Voluptatum nobis obcaecati perferendis dolor totam unde dolores quod maxime corporis officia et. Distinctio assumenda minima maiores.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour">
+                                        What is your opening time?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h3>What available is refund period?</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h3>Where are you from?</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Voluptatum nobis obcaecati perferendis dolor totam unde dolores quod maxime corporis officia et. Distinctio assumenda minima maiores.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <h3>What is your opening time?</h3>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="faq-answer">
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                <div class="col-md-6 ftco-animate">
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <div class="media block-6 services d-block">
+                                <div class="icon justify-content-center align-items-center d-flex">
+                                    <span class="flaticon-loan"></span>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="heading mb-3">Bank Loan</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="media block-6 services d-block">
+                                <div class="icon justify-content-center align-items-center d-flex">
+                                    <span class="flaticon-consultant"></span>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="heading mb-3">Banking Consulation</h3>
+                                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                    <a href="#" class="btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -424,49 +685,61 @@
     </section>
 
     <!-- Blog Section -->
-    <section id="blog" class="blog">
+    <section class="ftco-section bg-light">
         <div class="container">
-            <div class="section-header">
-                <h2>Our Blog</h2>
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-8 heading-section text-center ftco-animate">
+                    <span class="subheading">Blog</span>
+                    <h2 class="mb-4">Our Blog</h2>
+                </div>
             </div>
-            <div class="blog-grid">
-                <div class="blog-card">
-                    <div class="blog-image">
-                        <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Blog Post">
-                    </div>
-                    <div class="blog-content">
-                        <h3>A Basic Guide to Starting a Franchise in the Philippines</h3>
-                        <div class="blog-meta">
-                            <span>Ham Brook</span> • <span>Jan 18, 2019</span> • <span>News</span>
+            <div class="row d-flex">
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry justify-content-end">
+                        <a href="blog-single.html" class="block-20" style="background-image: url('https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');">
+                        </a>
+                        <div class="text p-4 float-right d-block">
+                            <h3 class="heading"><a href="#">A Basic Guide to Starting a Franchise in the Philippines</a></h3>
+                            <div class="meta mb-3">
+                                <div><a href="#">Ham Brook</a></div>
+                                <div><a href="#">Jan 18, 2019</a></div>
+                                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> News</a></div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                            <p><a href="blog-single.html" class="btn btn-primary">Continue Reading...</a></p>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-                        <a href="#" class="read-more">Continue Reading...</a>
                     </div>
                 </div>
-                <div class="blog-card">
-                    <div class="blog-image">
-                        <img src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Blog Post">
-                    </div>
-                    <div class="blog-content">
-                        <h3>A Basic Guide to Starting a Franchise in the Philippines</h3>
-                        <div class="blog-meta">
-                            <span>James Phelps</span> • <span>Jan 18, 2019</span> • <span>News</span>
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry justify-content-end">
+                        <a href="blog-single.html" class="block-20" style="background-image: url('https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');">
+                        </a>
+                        <div class="text p-4 float-right d-block">
+                            <h3 class="heading"><a href="#">A Basic Guide to Starting a Franchise in the Philippines</a></h3>
+                            <div class="meta mb-3">
+                                <div><a href="#">James Phelps</a></div>
+                                <div><a href="#">Jan 18, 2019</a></div>
+                                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> News</a></div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                            <p><a href="blog-single.html" class="btn btn-primary">Continue Reading...</a></p>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-                        <a href="#" class="read-more">Continue Reading...</a>
                     </div>
                 </div>
-                <div class="blog-card">
-                    <div class="blog-image">
-                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Blog Post">
-                    </div>
-                    <div class="blog-content">
-                        <h3>A Basic Guide to Starting a Franchise in the Philippines</h3>
-                        <div class="blog-meta">
-                            <span>James Phelps</span> • <span>Jan 18, 2019</span> • <span>News</span>
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry">
+                        <a href="blog-single.html" class="block-20" style="background-image: url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');">
+                        </a>
+                        <div class="text p-4 float-right d-block">
+                            <h3 class="heading"><a href="#">A Basic Guide to Starting a Franchise in the Philippines</a></h3>
+                            <div class="meta mb-3">
+                                <div><a href="#">James Phelps</a></div>
+                                <div><a href="#">Jan 18, 2019</a></div>
+                                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> News</a></div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                            <p><a href="blog-single.html" class="btn btn-primary">Continue Reading...</a></p>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-                        <a href="#" class="read-more">Continue Reading...</a>
                     </div>
                 </div>
             </div>
@@ -474,81 +747,131 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <section class="ftco-section contact-section">
         <div class="container">
-            <div class="section-header">
-                <h2>Contact Us</h2>
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-8 heading-section text-center ftco-animate">
+                    <span class="subheading">Contact</span>
+                    <h2 class="mb-4">Contact Us</h2>
+                </div>
             </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <p>+1 232 3235 324</p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <p>youremail@domain.com</p>
+            <div class="row d-flex mb-5 contact-info">
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="align-self-stretch box text-center p-4 shadow">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-map-marker"></span>
+                        </div>
+                        <div>
+                            <h3 class="mb-4">Address</h3>
+                            <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+                        </div>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <h3>Contact Form</h3>
-                    <form>
-                        <div class="form-row">
-                            <input type="text" placeholder="First Name" required>
-                            <input type="text" placeholder="Last Name" required>
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="align-self-stretch box text-center p-4 shadow">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-phone2"></span>
                         </div>
-                        <input type="email" placeholder="Email" required>
-                        <input type="text" placeholder="Subject" required>
-                        <textarea placeholder="Message" rows="5" required></textarea>
-                        <button type="submit" class="btn-primary">Send Message</button>
+                        <div>
+                            <h3 class="mb-4">Contact Number</h3>
+                            <p><a href="tel://1234567920">+1 232 3235 324</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="align-self-stretch box text-center p-4 shadow">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-paper-plane"></span>
+                        </div>
+                        <div>
+                            <h3 class="mb-4">Email Address</h3>
+                            <p><a href="mailto:info@yoursite.com">youremail@domain.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters block-9">
+                <div class="col-md-6 order-md-last d-flex">
+                    <form action="#" class="bg-light p-4 p-md-5 contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                        </div>
                     </form>
+                </div>
+                <div class="col-md-6 d-flex">
+                    <div class="img" style="background-image: url('https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>About Us</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#">Policy</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Follow Us</h3>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+            <div class="row mb-5">
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2 logo">Banker</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="footer-section">
-                    <h3>Subscribe Newsletter</h3>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Enter your email">
-                        <button type="submit">Send</button>
-                    </form>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4 ml-md-5">
+                        <h2 class="ftco-heading-2">Quick Links</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Terms</a></li>
+                            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Policy</a></li>
+                            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>About Us</a></li>
+                            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Services</a></li>
+                            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Testimonials</a></li>
+                            <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Follow Us</h2>
+                        <ul class="ftco-footer-social list-unstyled mt-2">
+                            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Subscribe Newsletter</h2>
+                        <form action="#" class="subscribe-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
+                                <input type="submit" value="Send" class="form-control submit px-3">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 All rights reserved | This template is made with <i class="fas fa-heart"></i> by Colorlib</p>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>Copyright &copy; All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                </div>
             </div>
         </div>
     </footer>
